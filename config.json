@@ -1,0 +1,228 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        }
+    ],
+    "alwaysShowNotificationIcon": false,
+    "centerOnLaunch": true,
+    "confirmCloseAllTabs": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+    "focusFollowMouse": true,
+    "initialCols": 240,
+    "initialRows": 60,
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "launchMode": "maximized",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "antialiasingMode": "cleartype",
+            "bellStyle": 
+            [
+                "audible",
+                "window",
+                "taskbar"
+            ],
+            "colorScheme": "Marine",
+            "font": 
+            {
+                "face": "FiraCode Nerd Font Mono",
+                "weight": "semi-light"
+            },
+            "icon": "C:\\Users\\Papa\\windows-terminal-icons\\icons\\terminal.ico",
+            "opacity": 60,
+            "showMarksOnScrollbar": true,
+            "suppressApplicationTitle": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
+                "experimental.retroTerminalEffect": false,
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Windows PowerShell",
+                "useAcrylic": true
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Prompt dei comandi"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "backgroundImage": "C:\\Users\\Papa\\Downloads\\pexels-blaque-x-264516-932638.jpg",
+                "backgroundImageOpacity": 0.06,
+                "colorScheme": "Marine",
+                "cursorHeight": 18,
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "cellHeight": "1.2",
+                    "face": "FiraCode Nerd Font Mono",
+                    "features": 
+                    {
+                        "aalt": 0
+                    },
+                    "size": 12,
+                    "weight": 129
+                },
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "icon": "C:\\Users\\Papa\\OneDrive - Sunrise GmbH\\Pictures\\icone\\linux.png",
+                "intenseTextStyle": "none",
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl",
+                "useAcrylic": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe ssh aibo",
+                "guid": "{ae3eac23-9eb9-4ffb-9f1e-45532dbf2456}",
+                "hidden": false,
+                "icon": "C:\\Users\\Papa\\OneDrive - Sunrise GmbH\\Pictures\\google-cloud-icons\\compute_engine\\compute_engine.png",
+                "name": "aibo",
+                "startingDirectory": null
+            },
+            {
+                "commandline": "ssh amp@p-cmt-ace-01",
+                "guid": "{611f76fe-b837-4efd-9565-eb98be1d51af}",
+                "hidden": false,
+                "icon": "C:\\Users\\Papa\\windows-terminal-icons\\icons\\ssh-96.png",
+                "name": "p-cmt-ace-01"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe ssh cloud-amp-iap",
+                "guid": "{e941aa74-be51-4f34-8774-57410894b45d}",
+                "hidden": false,
+                "icon": "C:\\Users\\Papa\\OneDrive - Sunrise GmbH\\Pictures\\google-cloud-icons\\compute_engine\\compute_engine.png",
+                "name": "cloud-amp",
+                "startingDirectory": null
+            },
+            {
+                "commandline": "ssh amp@cloud-amp",
+                "guid": "{39190f3f-8861-4267-a21b-3a8b2f216e78}",
+                "hidden": false,
+                "icon": "C:\\Users\\Papa\\windows-terminal-icons\\icons\\ssh-96.png",
+                "name": "cloud-amp"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#15141B",
+            "black": "#110F18",
+            "blue": "#61FFCA",
+            "brightBlack": "#4D4D4D",
+            "brightBlue": "#A277FF",
+            "brightCyan": "#61FFCA",
+            "brightGreen": "#A277FF",
+            "brightPurple": "#A277FF",
+            "brightRed": "#FFCA85",
+            "brightWhite": "#EDECEE",
+            "brightYellow": "#FFCA85",
+            "cursorColor": "#A277FF",
+            "cyan": "#EDECEE",
+            "foreground": "#EDECEE",
+            "green": "#61FFCA",
+            "name": "Aura Dark",
+            "purple": "#A277FF",
+            "red": "#FF6767",
+            "selectionBackground": "#A394F0",
+            "white": "#EDECEE",
+            "yellow": "#FFCA85"
+        },
+        {
+            "background": "#0A1C2B",
+            "black": "#1E272E",
+            "blue": "#3498DB",
+            "brightBlack": "#7F8C8D",
+            "brightBlue": "#48B1F3",
+            "brightCyan": "#55E6C1",
+            "brightGreen": "#58D68D",
+            "brightPurple": "#BB8FCE",
+            "brightRed": "#F1948A",
+            "brightWhite": "#F5F7F8",
+            "brightYellow": "#F9E79F",
+            "cursorColor": "#E0F7FA",
+            "cyan": "#00CEC9",
+            "foreground": "#E0F7FA",
+            "green": "#2ECC71",
+            "name": "Marine",
+            "purple": "#9B59B6",
+            "red": "#E74C3C",
+            "selectionBackground": "#4FC3F7",
+            "white": "#ECF0F1",
+            "yellow": "#F1C40F"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "startOnUserLogin": true,
+    "tabWidthMode": "titleLength",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
