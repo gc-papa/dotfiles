@@ -1,0 +1,1 @@
+{"primary_source":{"type":"registry+v1","id":"pkg:github/mvdan/sh@v3.11.0"},"name":"shfmt","metrics":{"completion_time":1743843742290,"start_time":1743843740465},"secondary_sources":[],"schema_version":"1.1","links":{"bin":{"shfmt":"shfmt_v3.11.0_linux_amd64"},"share":{},"opt":{}}}

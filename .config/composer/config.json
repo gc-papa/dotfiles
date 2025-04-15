@@ -1,0 +1,6 @@
+{
+    "config": {
+        "github-protocols": ["https"],
+        "cafile": "/home/gpx/.certs/proxy-bundle.pem"
+    }
+}

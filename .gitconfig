@@ -1,0 +1,11 @@
+[user]
+	name = Giancarlo Papa
+	email = giancarlo.papa@sunrise.net
+[credential]
+	helper = store
+[core]
+	editor = code --wait
+[http]
+	sslVerify = true
+[init]
+	defaultBranch = main
